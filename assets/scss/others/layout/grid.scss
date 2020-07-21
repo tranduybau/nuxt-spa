@@ -1,0 +1,308 @@
+@for $i from 1 through 20 {
+    // padding
+    .p-#{$i} {
+        padding: $i * 0.25rem !important;
+    }
+    .pl-#{$i} {
+        padding-left: $i * 0.25rem !important;
+    }
+    .pr-#{$i} {
+        padding-right: $i * 0.25rem !important;
+    }
+    .pt-#{$i} {
+        padding-top: $i * 0.25rem !important;
+    }
+    .pb-#{$i} {
+        padding-bottom: $i * 0.25rem !important;
+    }
+    .px-#{$i} {
+        padding-left: $i * 0.25rem !important;
+        padding-right: $i * 0.25rem !important;
+    }
+    .py-#{$i} {
+        padding-top: $i * 0.25rem !important;
+        padding-bottom: $i * 0.25rem !important;
+    }
+    // margin
+    .m-#{$i} {
+        margin: $i * 0.25rem !important;
+    }
+    .ml-#{$i} {
+        margin-left: $i * 0.25rem !important;
+    }
+    .mr-#{$i} {
+        margin-right: $i * 0.25rem !important;
+    }
+    .mt-#{$i} {
+        margin-top: $i * 0.25rem !important;
+    }
+    .mb-#{$i} {
+        margin-bottom: $i * 0.25rem !important;
+    }
+    .mx-#{$i} {
+        margin-left: $i * 0.25rem !important;
+        margin-right: $i * 0.25rem !important;
+    }
+    .my-#{$i} {
+        margin-top: $i * 0.25rem !important;
+        margin-bottom: $i * 0.25rem !important;
+    }
+    // spacing
+    .sy-#{$i} {
+        display: block;
+        height: $i * 10px;
+    }
+    .sx-#{$i} {
+        display: inline-block;
+        height: 1px;
+        width: $i * 10px;
+    }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (min-width: 1200px) {
+    @for $i from 1 through 20 {
+        // padding
+        .p-lg-#{$i} {
+            padding: $i * 0.25rem !important;
+        }
+        .pl-lg-#{$i} {
+            padding-left: $i * 0.25rem !important;
+        }
+        .pr-lg-#{$i} {
+            padding-right: $i * 0.25rem !important;
+        }
+        .pt-lg-#{$i} {
+            padding-top: $i * 0.25rem !important;
+        }
+        .pb-lg-#{$i} {
+            padding-bottom: $i * 0.25rem !important;
+        }
+        .px-lg-#{$i} {
+            padding-left: $i * 0.25rem !important;
+            padding-right: $i * 0.25rem !important;
+        }
+        .py-lg-#{$i} {
+            padding-top: $i * 0.25rem !important;
+            padding-bottom: $i * 0.25rem !important;
+        }
+        // margin
+        .m-lg-#{$i} {
+            margin: $i * 0.25rem !important;
+        }
+        .ml-lg-#{$i} {
+            margin-left: $i * 0.25rem !important;
+        }
+        .mr-lg-#{$i} {
+            margin-right: $i * 0.25rem !important;
+        }
+        .mt-lg-#{$i} {
+            margin-top: $i * 0.25rem !important;
+        }
+        .mb-lg-#{$i} {
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .mx-lg-#{$i} {
+            margin-left: $i * 0.25rem !important;
+            margin-right: $i * 0.25rem !important;
+        }
+        .my-lg-#{$i} {
+            margin-top: $i * 0.25rem !important;
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .sy-lg-#{$i} {
+            display: block;
+            height: $i * 10px;
+        }
+        .sx-lg-#{$i} {
+            display: inline-block;
+            height: 1px;
+            width: $i * 10px;
+        }
+    }
+}
+// Large devices (desktops, 992px and up)
+@media screen and (min-width: 992px) {
+    @for $i from 1 through 20 {
+        // padding
+        .p-md-#{$i} {
+            padding: $i * 0.25rem !important;
+        }
+        .pl-md-#{$i} {
+            padding-left: $i * 0.25rem !important;
+        }
+        .pr-md-#{$i} {
+            padding-right: $i * 0.25rem !important;
+        }
+        .pt-md-#{$i} {
+            padding-top: $i * 0.25rem !important;
+        }
+        .pb-md-#{$i} {
+            padding-bottom: $i * 0.25rem !important;
+        }
+        .px-md-#{$i} {
+            padding-left: $i * 0.25rem !important;
+            padding-right: $i * 0.25rem !important;
+        }
+        .py-md-#{$i} {
+            padding-top: $i * 0.25rem !important;
+            padding-bottom: $i * 0.25rem !important;
+        }
+        // margin
+        .m-md-#{$i} {
+            margin: $i * 0.25rem !important;
+        }
+        .ml-md-#{$i} {
+            margin-left: $i * 0.25rem !important;
+        }
+        .mr-md-#{$i} {
+            margin-right: $i * 0.25rem !important;
+        }
+        .mt-md-#{$i} {
+            margin-top: $i * 0.25rem !important;
+        }
+        .mb-md-#{$i} {
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .mx-md-#{$i} {
+            margin-left: $i * 0.25rem !important;
+            margin-right: $i * 0.25rem !important;
+        }
+        .my-md-#{$i} {
+            margin-top: $i * 0.25rem !important;
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .sy-md-#{$i} {
+            display: block;
+            height: $i * 10px;
+        }
+        .sx-md-#{$i} {
+            display: inline-block;
+            height: 1px;
+            width: $i * 10px;
+        }
+    }
+}
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+    @for $i from 1 through 20 {
+        // padding
+        .p-sm-#{$i} {
+            padding: $i * 0.25rem !important;
+        }
+        .pl-sm-#{$i} {
+            padding-left: $i * 0.25rem !important;
+        }
+        .pr-sm-#{$i} {
+            padding-right: $i * 0.25rem !important;
+        }
+        .pt-sm-#{$i} {
+            padding-top: $i * 0.25rem !important;
+        }
+        .pb-sm-#{$i} {
+            padding-bottom: $i * 0.25rem !important;
+        }
+        .px-sm-#{$i} {
+            padding-left: $i * 0.25rem !important;
+            padding-right: $i * 0.25rem !important;
+        }
+        .py-sm-#{$i} {
+            padding-top: $i * 0.25rem !important;
+            padding-bottom: $i * 0.25rem !important;
+        }
+        // margin
+        .m-sm-#{$i} {
+            margin: $i * 0.25rem !important;
+        }
+        .ml-sm-#{$i} {
+            margin-left: $i * 0.25rem !important;
+        }
+        .mr-sm-#{$i} {
+            margin-right: $i * 0.25rem !important;
+        }
+        .mt-sm-#{$i} {
+            margin-top: $i * 0.25rem !important;
+        }
+        .mb-sm-#{$i} {
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .mx-sm-#{$i} {
+            margin-left: $i * 0.25rem !important;
+            margin-right: $i * 0.25rem !important;
+        }
+        .my-sm-#{$i} {
+            margin-top: $i * 0.25rem !important;
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .sy-sm-#{$i} {
+            display: block;
+            height: $i * 10px;
+        }
+        .sx-sm-#{$i} {
+            display: inline-block;
+            height: 1px;
+            width: $i * 10px;
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px) {
+    @for $i from 1 through 20 {
+        // padding
+        .p-xs-#{$i} {
+            padding: $i * 0.25rem !important;
+        }
+        .pl-xs-#{$i} {
+            padding-left: $i * 0.25rem !important;
+        }
+        .pr-xs-#{$i} {
+            padding-right: $i * 0.25rem !important;
+        }
+        .pt-xs-#{$i} {
+            padding-top: $i * 0.25rem !important;
+        }
+        .pb-xs-#{$i} {
+            padding-bottom: $i * 0.25rem !important;
+        }
+        .px-xs-#{$i} {
+            padding-left: $i * 0.25rem !important;
+            padding-right: $i * 0.25rem !important;
+        }
+        .py-xs-#{$i} {
+            padding-top: $i * 0.25rem !important;
+            padding-bottom: $i * 0.25rem !important;
+        }
+        // margin
+        .m-xs-#{$i} {
+            margin: $i * 0.25rem !important;
+        }
+        .ml-xs-#{$i} {
+            margin-left: $i * 0.25rem !important;
+        }
+        .mr-xs-#{$i} {
+            margin-right: $i * 0.25rem !important;
+        }
+        .mt-xs-#{$i} {
+            margin-top: $i * 0.25rem !important;
+        }
+        .mb-xs-#{$i} {
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .mx-xs-#{$i} {
+            margin-left: $i * 0.25rem !important;
+            margin-right: $i * 0.25rem !important;
+        }
+        .my-xs-#{$i} {
+            margin-top: $i * 0.25rem !important;
+            margin-bottom: $i * 0.25rem !important;
+        }
+        .sy-xs-#{$i} {
+            display: block;
+            height: $i * 10px;
+        }
+        .sx-xs-#{$i} {
+            display: inline-block;
+            height: 1px;
+            width: $i * 10px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "validate": {
+    "email": "Wrong email format!",
+    "required": "This field is required!"
+  },
+  "navbar": {
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Log in to see secret page",
+    "email": "Your email...",
+    "password": "Your password...",
+    "button": "Log in"
+  },
+  "home": {
+    "title": "Welcome",
+    "lang": "Eng",
+    "introduction": "This is an introduction in English.",
+    "navbar": "This is a navbar",
+    "header": "This is a header",
+    "sidebar": "This is a sidebar",
+    "footer": "This starter template is made by thecodeorigin.com"
+  },
+  "secret-text": "This page requires authentication",
+  "random-text": "This text use global scss variable in the component",
+  "random-text-2": "Introduction page content",
+  "random-text-using-grid": "This text's using mt-5 (custom scss grid)",
+  "random-text-using-spacing": "This text's using sx-10 (custom scss spacing)",
+  "random-text-using-mixin": "This text's using centerAbsolute('both') (custom scss mixin)"
+}

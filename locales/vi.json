@@ -1,0 +1,31 @@
+{
+  "validate": {
+    "email": "Sai định dạng email!",
+    "required": "Trường này là bắt buộc!"
+  },
+  "navbar": {
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  },
+  "login": {
+    "title": "Đăng nhập để thấy trang có xác thực bảo vệ",
+    "email": "Nhập email của bạn vào...",
+    "password": "Nhập mật khẩu của bạn vào...",
+    "button": "Đăng nhập"
+  },
+  "home": {
+    "title": "Chào mừng",
+    "lang": "Việt",
+    "introduction": "Đây là một đoạn giới thiệu bằng Tiếng Việt.",
+    "navbar": "Đây là thanh điều hướng",
+    "header": "Đây là một header",
+    "sidebar": "Đây là một sidebar",
+    "footer": "Mẫu website này được làm bởi thecodeorigin.com"
+  },
+  "secret-text": "Trang này yêu cầu đăng nhập mới thấy được",
+  "random-text": "Đoạn text này dùng biến scss toàn cục trong component riêng",
+  "random-text-2": "Nội dung trang giới thiệu",
+  "random-text-using-grid": "Đoạn văn bản này sử dụng mt-5 (custom scss grid)",
+  "random-text-using-spacing": "Đoạn văn bản này sử dụng sx-10 (custom scss spacing)",
+  "random-text-using-mixin": "Đoạn văn bản này sử dụng centerAbsolute('both') (custom scss mixin)"
+}
